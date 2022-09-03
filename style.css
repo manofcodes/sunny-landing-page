@@ -5,21 +5,23 @@
 }
 
 body {
-    margin: 0;
-    /* display: flex;
-    flex-direction: column; */
+    margin: 0 auto;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
     font-weight: 900;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: white;
+    margin-left: 18px;
 }
 
 .right-links {
@@ -33,10 +35,17 @@ body {
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 .contact {
-    margin-left: 18px;
+    margin: 0 18px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: solid 1px white;
+    border-radius: 20px;
+    font-weight: 500;
 }
 
 .general {
@@ -50,8 +59,92 @@ a {
 .first-header h2 {
     color: white;
     text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
 }
 
-.first-header svg {
+.first-svg {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 600px;
+}
+
+.second-section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.second-section img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.sec-img {
+    display: flex;
+    justify-content: center;
+}
+
+.img-indent {
+    align-self: center;
+    max-width: 60%;
+}
+
+.sec-img h2 {
+    font-size: 2em;
+}
+
+/* .sec-img p {
     
+} */
+
+.yellow {
+    text-decoration:underline;
+    text-decoration-color: yellow;
+}
+
+.yellow:hover {
+    text-decoration-thickness: 5px;
+}
+
+.red {
+    text-decoration: underline;
+    text-decoration-color: pink;
+}
+
+.red:hover {
+    text-decoration-thickness: 5px;
+}
+
+.black {
+    color: black;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.sec-img, .sec-img2, .sec-img3, .sec-img4, .sec-img5, .sec-img6 {
+    width: 50vw;
+}
+
+.sec-img4 {
+    display: flex;
+    justify-content: center;
+}
+
+.img-indent2 {
+    align-self: center;
+    max-width: 60%;
+}
+
+.img-indent2 h3 {
+    font-size: 2em;
 }

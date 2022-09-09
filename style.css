@@ -124,6 +124,9 @@ a {
 }
 
 @media screen and (max-width: 480px) {
+    .first-header h2 {
+        font-size: 1.2em;
+    }
     .first-row, .second-row, .third-row {
         display: flex;
         flex-wrap: wrap;
@@ -136,9 +139,19 @@ a {
     .sec-img2 {
         order: -1;
     }
+    .content3, .content4 {
+        margin-bottom: 20px;
+        width: 70%;
+    }
     .testimonials {
         flex-wrap: wrap;
         flex: 1;
+    }
+    .info {
+        margin: 0 auto 20px;
+    }
+    .position {
+        margin: 0 0 30px 0;
     }
     .img-decor {
         display: flex;

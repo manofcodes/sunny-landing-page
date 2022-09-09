@@ -112,6 +112,10 @@ a {
         width: 50vw;
         height: 550px;
     }
+    .content3, .content4 {
+        width: 55%;
+        margin: 0 auto 45px;
+    }
     .testimonials {
         flex-wrap: nowrap;
     }
@@ -140,7 +144,7 @@ a {
         order: -1;
     }
     .content3, .content4 {
-        margin-bottom: 20px;
+        margin: 0 auto 20px;
         width: 90%;
     }
     .testimonials {
@@ -185,8 +189,6 @@ a {
 .content3, .content4 {
     align-self: end;
     text-align: center;
-    margin: 0 auto 45px;
-    width: 55%;
 }
 .content3 {
     color: hsl(167, 40%, 24%);

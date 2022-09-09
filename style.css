@@ -125,7 +125,7 @@ a {
 
 @media screen and (max-width: 480px) {
     .first-header h2 {
-        font-size: 1.2em;
+        font-size: 2em;
     }
     .first-row, .second-row, .third-row {
         display: flex;
@@ -141,7 +141,7 @@ a {
     }
     .content3, .content4 {
         margin-bottom: 20px;
-        width: 70%;
+        width: 90%;
     }
     .testimonials {
         flex-wrap: wrap;
@@ -233,6 +233,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 .testi img {
     border-radius: 50%;

@@ -112,6 +112,9 @@ a {
         width: 50vw;
         height: 550px;
     }
+    .content1, .content2 {
+        width: 55%;
+    }
     .content3, .content4 {
         width: 55%;
         margin: 0 auto 45px;
@@ -142,6 +145,10 @@ a {
     }
     .sec-img2 {
         order: -1;
+    }
+    .content1, .content2 {
+        width: 90%;
+        text-align: center;
     }
     .content3, .content4 {
         margin: 0 auto 20px;
@@ -175,7 +182,6 @@ a {
 }
 
 .content1, .content2 {
-    width: 55%;
     margin: 0 auto;
 }
 .content1 h2, .content2 h2, .content3 h2, .content4 h2 {

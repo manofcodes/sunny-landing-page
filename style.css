@@ -6,8 +6,11 @@
 }
 
 body {
-    margin: 0 auto;
-    height: 100vh;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
 }
 
 .header {
@@ -37,7 +40,6 @@ a {
     color: white;
     text-decoration: none;
 }
-
 .contact {
     margin: 0 18px;
     background-color: white;
@@ -50,7 +52,6 @@ a {
 .contact a {
     color: black;
 }
-
 .general {
     background-image: url(./images/desktop/image-header.jpg);
     background-size: cover;
@@ -58,22 +59,18 @@ a {
     height: 600px;
     background-position: center;
 }
-
 .sec-img5 {
     background-image: url(./images/desktop/image-graphic-design.jpg);
 }
-
 .sec-img6 {
     background-image: url(./images/desktop/image-photography.jpg);
 }
-
 .sec-img5, .sec-img6 {
     background-size: cover;
     background-repeat: no-repeat;
     height: 550px;
     background-position: center;
 }
-
 .first-header h2 {
     color: white;
     text-align: center;
@@ -83,19 +80,16 @@ a {
     font-weight: 900;
     letter-spacing: 0.3em;
 }
-
 .first-svg {
     display: flex;
     justify-content: center;
     padding-top: 10px;
     margin-bottom: 600px;
 }
-
 .second-section {
     display: flex;
     flex-wrap: wrap;
 }
-
 .second-section img {
     object-fit: cover;
     width: 100%;
@@ -106,10 +100,14 @@ a {
         display: flex;
         flex-shrink: 0;
         flex-wrap: nowrap;
-        width: 100vw;
+        width: 100%;
     }
-    .sec-img, .sec-img2, .sec-img3, .sec-img4, .sec-img5, .sec-img6 {
+    .sec-img, .sec-img3, .sec-img5 {
         width: 50vw;
+        height: 550px;
+    }
+    .sec-img2, .sec-img4, .sec-img6 {
+        width: 49vw;
         height: 550px;
     }
     .content1, .content2 {
@@ -129,7 +127,6 @@ a {
         width: 25%;
     }
 }
-
 @media screen and (max-width: 480px) {
     .first-header h2 {
         font-size: 2em;
@@ -138,6 +135,7 @@ a {
         display: flex;
         flex-wrap: wrap;
         height: fit-content;
+        width: 100%;
     }
     .sec-img, .sec-img2, .sec-img3, .sec-img4, .sec-img5, .sec-img6 {
         width: 100vw;
